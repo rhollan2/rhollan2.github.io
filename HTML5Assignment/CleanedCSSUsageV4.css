@@ -1,0 +1,582 @@
+html, body, div, span, h1, h2, p, a,  ul, li, fieldset, label, legend {
+    border: 0 none;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+ul {
+    list-style: none outside none;
+}
+
+body{
+    font-family: "Avenir LT W01 55 Roman",Arial,Verdana,Sans-Serif;
+}
+strong, b, #siteTopNav li, .styledButton, #mainContentCopy fieldset legend, #mainContentCopy fieldset label.formLabel, {
+    font-family: "Avenir LT W01 85 Heavy",Arial,Verdana,Sans-Serif;
+    font-weight: normal;
+}
+h1, h2 {
+    font-family: "Avenir LT W01 95 Black",Arial,Verdana,Sans-Serif;
+    font-weight: normal;
+}
+input, select{
+    font-family: Arial,Verdana,Sans-Serif;
+}
+body {
+    background-color: #EDE6D5;
+    font-size: 106.25%;
+    text-align: center;
+}
+h1, h2, p {
+    margin: 15px 0;
+}
+h1 {
+    font-size: 1.25em;
+}
+h2{
+    font-size: 0.875em;
+}
+p, li{
+    font-size: 0.875em;
+}
+ul {
+    list-style: disc outside none;
+    margin: 15px 0 10px;
+}
+li {
+    line-height: 1.2em;
+    margin: 0 0 5px 25px;
+}
+ul ul {
+    list-style: disc outside none;
+    margin: 10px 0 0;
+}
+.centerAlign {
+    text-align: center !important;
+}
+fieldset input, fieldset select{
+    font-size: 0.75em;
+    vertical-align: middle;
+}
+hr {
+    display: none;
+}
+.clearfix {
+    display: inline-block;
+}
+.clearfix {
+    display: block;
+}
+a {
+    color: #0033CC;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:hover {
+    color: #F27013;
+}
+#logoPrint, #siteLogo a span, #siteTopNav, #siteTopNavBackground {
+    display: none;
+}
+#siteHeaderContainer, #siteHeader {
+    position: relative;
+    z-index: 200;
+}
+#siteHeaderContainer {
+    background-color: #FFFFFF;
+    margin: 10px 10px 0;
+    padding: 0;
+}
+#siteHeader {
+    margin: auto;
+    max-width: 1200px;
+    padding-top: 35px;
+}
+#siteLogo {
+    height: 85px;
+    margin: 0;
+}
+#siteLogo a {
+    background: url("img/DePaulLogo.jpg") no-repeat scroll center center rgba(0, 0, 0, 0);
+    display: block;
+    height: 85px;
+    position: relative;
+    width: 100%;
+}
+#siteContentContainer {
+    margin: 0 10px;
+}
+#siteContent {
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: left;
+}
+#mainContent {
+    background-color: #FFFFFF;
+    padding-bottom: 30px;
+    position: relative;
+}
+.breadcrumbNav, .pageHeading {
+    margin: 0 20px;
+    max-width: 600px;
+}
+.breadcrumbNav {
+    font-size: 0.75em;
+    padding: 5px 0 15px;
+}
+#mainContentCopy {
+    margin: 0 20px;
+    min-height: 150px;
+}
+#mainContentCopy .sectionIndex li a:hover {
+    text-decoration: underline;
+}
+#mainContentSidebar {
+    clear: both;
+    margin: 20px 20px 0;
+}
+
+.styledButton{
+    background: url("img/bg_siteButton.gif") no-repeat scroll -25px 0 #808081;
+    border: 1px solid #666666;
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 1em;
+    line-height: 1.1em;
+    margin: 0;
+    overflow: visible;
+    padding: 3px 5px;
+    text-shadow: -1px 0 #666666, 0 1px #666666, 1px 0 #666666, 0 -1px #666666;
+    vertical-align: middle;
+    width: auto;
+}
+.siteButton:hover, .styledButton:hover {
+    background-position: -25px -100px;
+}
+.continueButton{
+    background: url("img/bg_siteButton.gif") no-repeat scroll -425px 0 #80B300;
+    border: 1px solid #336600;
+    text-shadow: -1px 0 #336600, 0 1px #336600, 1px 0 #336600, 0 -1px #336600;
+}
+a.greenButton:hover {
+    text-decoration: none;
+}
+.continueButton:hover, .greenButton:hover{
+    background-position: -425px -100px;
+}
+.cancelButton, .backButton{
+    cursor: pointer;
+    max-width: 27px;
+    overflow: hidden;
+    padding: 3px 0;
+    text-indent: 30px;
+    width: 27px;
+}
+.cancelButton {
+    background: url("img/bg_siteButton.gif") no-repeat scroll -800px 0 #9B0000;
+    border: 1px solid #660000;
+    text-shadow: -1px 0 #660000, 0 1px #660000, 1px 0 #660000, 0 -1px #660000;
+}
+.cancelButton:hover {
+    background-position: -800px -100px;
+}
+.backButton {
+    background: url("img/bg_siteButton.gif") no-repeat scroll 0 0 #808081;
+}
+.backButton:hover {
+    background-position: 0 -100px;
+}
+.centerAlign .backButton {
+    margin-right: 10px;
+}
+.centerAlign .cancelButton {
+    margin-left: 10px;
+}
+.selectAccountButton:hover {
+    background-position: -1200px -100px;
+}
+#mainContentCopy fieldset {
+    background-color: #FFFFFF;
+    background-image: linear-gradient(to bottom, #FFFFFF, #F2F2F2);
+    border: 1px dotted #999999;
+    clear: both;
+    display: block;
+    margin: 20px 0;
+    padding: 10px 20px 10px 30px;
+    position: relative;
+}
+#mainContentCopy fieldset label, #mainContentCopy fieldset input, #mainContentCopy fieldset select, #mainContentCopy fieldset span, #mainContentCopy fieldset img {
+    vertical-align: top;
+}
+#mainContentCopy fieldset input, #mainContentCopy fieldset select{
+    margin-bottom: 10px;
+}
+#mainContentCopy fieldset legend {
+    background-color: #FFFFFF;
+    border: 1px dotted #999999;
+    font-size: 0.875em;
+    margin: 0 0 10px -10px;
+    padding: 5px 10px;
+}
+p.requiredFieldsLegend {
+    color: #666666;
+    margin: 0 0 20px;
+}
+p.requiredFieldsLegend span {
+    position: relative;
+}
+p.requiredFieldsLegend span img {
+    left: -12px;
+    position: absolute;
+}
+#mainContentCopy fieldset label.formLabel {
+    display: block;
+    font-size: 0.875em;
+    padding-bottom: 5px;
+    position: relative;
+}
+#mainContentCopy fieldset label.formLabel span {
+    white-space: nowrap;
+}
+#mainContentCopy fieldset label.formLabel img {
+    left: -12px;
+    position: absolute;
+}
+#mainContentCopy fieldset p {
+    margin: 0 0 10px;
+}
+#siteContent .DESVALSummary {
+    background: url("img/cancel_32.gif") no-repeat scroll 10px 10px #FFE5E5;
+    border: 1px solid #FF0000;
+    border-radius: 10px;
+    clear: right;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+#siteFooterContainer {
+    margin: 0 10px;
+    padding: 0;
+}
+#footerQuickLinks {
+    margin-left: 20px;
+    text-align: left;
+}
+#siteFooter {
+    margin: auto;
+    max-width: 1200px;
+    position: relative;
+    text-align: left;
+}
+#siteFooter p {
+    border-top: 1px dotted #999999;
+    font-size: 0.75em;
+    margin: 0;
+    padding: 10px 15px 20px;
+    position: relative;
+}
+@media screen and (max-width: 480px) {
+#siteContentContainer #siteContent {
+    background-image: none;
+}
+}
+@media screen and (min-width: 480px) {
+#mainContentCopy {
+    min-height: 250px;
+}
+li {
+    margin-left: 40px;
+}
+#siteFooter {
+    padding-top: 20px;
+}
+#footerQuickLinks {
+    left: 20px;
+    margin-left: 0;
+    position: absolute;
+    top: 0;
+    width: 220px;
+}
+}
+@media screen and (min-width: 575px) {
+body {
+    font-size: 100%;
+}
+#siteHeaderContainer, #siteContentContainer, #siteFooterContainer {
+    margin: 0;
+    padding: 0 20px;
+}
+#siteTopNavBackground, #siteTopNav {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #4D4DB3;
+    background-image: linear-gradient(to bottom, #6666CC, #333399);
+    border-color: #333399;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 0 1px 1px;
+}
+#siteTopNav {
+    border-width: 1px 20px;
+    display: block;
+    height: 30px;
+    list-style: none outside none;
+    margin: 0 -20px -5px;
+    position: relative;
+}
+#siteTopNav li {
+    border-right: 1px solid #333399;
+    display: block;
+    font-size: 14px;
+    height: 30px;
+    margin: 0;
+    position: absolute;
+    text-shadow: -1px 0 #333399, 0 1px #333399, 1px 0 #333399, 0 -1px #333399;
+    top: 0;
+    white-space: nowrap;
+    width: 25%;
+}
+#siteTopNav a {
+    color: #FFFFFF;
+    display: block;
+    height: 30px;
+}
+#siteTopNav a span {
+    display: block;
+    padding: 6px 15px 0;
+}
+#siteTopNavTab1 {
+    left: 0;
+}
+#siteTopNavTab2 {
+    left: 25%;
+}
+#siteTopNavTab3 {
+    left: 50%;
+}
+#siteTopNavTab4 {
+    left: 75%;
+}
+#siteTopNav ul {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #333333;
+    border-color: #333333;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 1px 0;
+    display: none;
+    left: 5px;
+    list-style: none outside none;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+#siteTopNav ul li a:hover {
+    background-color: #F27013;
+    text-decoration: none;
+}
+#siteHeaderContainer {
+    padding-bottom: 0;
+}
+#siteHeader {
+    padding-top: 0;
+    text-align: left;
+}
+#siteLogo {
+    height: 107px;
+}
+#siteLogo a {
+    background: url("img/DePaulLogo.jpg") no-repeat scroll 51px 14px rgba(0, 0, 0, 0);
+    height: 107px;
+    width: 240px;
+}
+#siteContentContainer {
+    background: url("img/bg_siteContentContainer.gif") repeat-x scroll 0 0 #FFFFFF;
+}
+#mainContent {
+    background-color: #000000;
+    padding-top: 125px;
+}
+
+#headingContainer {
+    height: 125px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#breadcrumbsAndHeading {
+    background: url("img/bg_breadcrumbsAndHeading.png") repeat-y scroll left top rgba(0, 0, 0, 0);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-shadow: -1px 0 2px #FFFFFF, 0 1px 2px #FFFFFF, 1px 0 2px #FFFFFF, 0 -1px 2px #FFFFFF;
+}
+.breadcrumbNav {
+    padding: 15px 0;
+}
+.pageHeading {
+    padding-bottom: 15px;
+}
+h1 {
+    font-size: 1.5em;
+}
+h2{
+    font-size: 1em;
+}
+}
+@media screen and (min-width: 700px) {
+p.requiredFieldsLegend span, #mainContentCopy fieldset label.formLabel {
+    float: left;
+    width: 16em;
+}
+p.requiredFieldsLegend span {
+    display: block;
+}
+p.requiredFieldsLegend span img {
+    left: auto;
+    right: 3px;
+    top: 3px;
+}
+#mainContentCopy fieldset label.formLabel {
+    clear: left;
+}
+#mainContentCopy fieldset label.formLabel span {
+    display: block;
+    padding-right: 15px;
+    text-align: right;
+}
+#mainContentCopy fieldset label.formLabel span span {
+    padding-right: 0;
+}
+#mainContentCopy fieldset label.formLabel img {
+    left: auto;
+    right: 3px;
+    top: 3px;
+}
+
+fieldset .fieldsWithExample {
+    margin-bottom: 3px;
+    overflow: hidden;
+    padding-top: 1.2em;
+    position: relative;
+}
+fieldset .fieldsWithExample input {
+    margin-bottom: 0;
+}
+#mainContentCopy fieldset input, #mainContentCopy fieldset select {
+    margin-bottom: 3px;
+}
+
+#mainContentCopy fieldset input[type="text"]{
+    width: auto;
+}
+.continueButton{
+    background-position: -400px 0;
+    padding: 3px 8px 3px 27px;
+}
+.continueButton:hover {
+    background-position: -400px -100px;
+}
+.backButton, .cancelButton{
+    max-width: 200px;
+    overflow: visible;
+    padding: 3px 8px 3px 23px;
+    text-indent: 0;
+    width: auto;
+}
+.centerAlign .backButton {
+    margin-right: 100px;
+}
+.centerAlign .cancelButton {
+    margin-left: 100px;
+}
+}
+@media screen and (min-width: 850px) {
+#siteTopNavBackground {
+    bottom: -10px;
+    display: block;
+    height: 48px;
+    left: 50%;
+    position: absolute;
+    right: 0;
+}
+#siteHeaderContainer, #siteHeader {
+    height: 125px;
+}
+#siteLogo {
+    height: 125px;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+#siteLogo a {
+    background-position: 51px 24px;
+    height: 125px;
+}
+#siteTopNav {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-width: 1px;
+    bottom: -10px;
+    height: 48px;
+    left: 240px;
+    margin: 0;
+    position: absolute;
+    right: 0;
+}
+#siteTopNav li {
+    font-size: 16px;
+    height: 48px;
+}
+#siteTopNav a {
+    height: 48px;
+}
+#siteTopNav a span {
+    padding: 15px 20px 0;
+}
+#siteTopNav ul {
+    left: 10px;
+    top: 48px;
+}
+}
+@media screen and (min-width: 980px) {
+#siteTopNav a span {
+    background: url("img/bg_siteTopNavButton.gif") no-repeat scroll right top rgba(0, 0, 0, 0);
+    padding: 15px 40px 0 20px;
+}
+}
+@media print {
+body {
+    background-color: #000000 !important;
+    text-align: left;
+}
+#logoPrint {
+    display: block;
+}
+#siteHeaderContainer, #siteHeader, #siteContentContainer, #mainContent, #mainContentCopy, #siteFooterContainer {
+    margin: 0;
+    min-height: 0;
+    padding: 0;
+}
+#siteLogo, .breadcrumbNav, #mainContentSidebar, #footerQuickLinks{
+    display: none;
+}
+.pageHeading {
+    margin: 20px 0;
+}
+#siteFooter p {
+    padding: 10px 0 0;
+}
+}
