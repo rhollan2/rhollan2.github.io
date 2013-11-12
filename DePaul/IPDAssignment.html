@@ -2,8 +2,11 @@
 <html>
     <head id="ctl00_ctl00_Head1"><title>
         IPD 356 HTML 5 Assignment
-</title><meta id="ctl00_ctl00_metaDescription" name="description" content="Start Service" /><meta id="ctl00_ctl00_metaKeywords" name="keywords" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+</title>
+<!--
+<meta id="ctl00_ctl00_metaDescription" name="description" content="Start Service" /><meta id="ctl00_ctl00_metaKeywords" name="keywords" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ -->
+        <meta charset="utf-8"> 
         <link rel="stylesheet" href="CleanedCSSUsageV4.css" type="text/css" />
         <!--
 <link rel="stylesheet" href="wpsStyleSheet.css" type="text/css" />
@@ -16,10 +19,15 @@
  
 </head>
     <body id="ctl00_ctl00_bdy" onpageshow="if (event.persisted) ctl00_ctl00_TemplateBody_BodyContent_sfbStep1Buttons_OnPageShow();">
+	<!--
         <a name="top"></a>
+		-->
         <div id="siteHeaderContainer">
             <span id="ctl00_ctl00_siteHeader"></span><div id="siteHeader">
+<!--
 <img src="img/DepaulLogo.png" alt="Depaul University" border="0" id="logoPrint" />
+-->
+<img src="img/DepaulLogo.png" alt="Depaul University" id="logoPrint" />
 <h2 id="siteLogo"><a href="http://www.depaul.edu" target="_top"><span>DePaul University</span></a></h2>
 
 <ul id="siteTopNav">
@@ -48,7 +56,10 @@
          <div id="mainContent" class="clearfix">                
                  <div id="headingContainer">
                  <div id="breadcrumbsAndHeading">
+				 <!--
                  <p class="breadcrumbNav">Assignment 2<label id="ctl00_ctl00_SiteHierarchy"></span></label></p>
+				 -->
+                 <p class="breadcrumbNav">Assignment 2<label id="ctl00_ctl00_SiteHierarchy"></label></p>				 
                 
                  <h1 class="pageHeading"><span>Calculate Trip Cost</span></h1>
                  </div>
@@ -61,7 +72,7 @@
 
 <fieldset>
   <legend>Calculate Trip Cost</legend>
-  
+ <form> 
   <p class="requiredFieldsLegend"><span><img class="required" src="img/required.gif" alt="Required Field" style="border-width:0px;" />&nbsp;</span> = Required Fields</p>
   
   <div class="fieldsWithExample">
@@ -84,8 +95,8 @@
   </div>
   
   <div class="fieldsWithExample">
-    <label for="ctl00_ctl00_TemplateBody_BodyContent_ucStep1_txtStartStreetType" class="formLabel"><span>Nationality:</span></label>
-        <select name="selNationality">
+    <label for="Nationality" class="formLabel"><span>Nationality:</span></label>
+        <select name="Nationality" id="Nationality">
                             <option value="amer">USA</option>
                             <option value="can">Canada</option>
                             <option value="mex">Mexico</option>
@@ -95,8 +106,8 @@
   </div>
   
   <div class="fieldsWithExample">
-  <label for="ctl00_ctl00_TemplateBody_BodyContent_ucStep1_txtStartCity" class="formLabel"><span><img id="ctl00_ctl00_TemplateBody_BodyContent_ucStep1_Image16" class="required" src="img/required.gif" alt="Required Field" style="border-width:0px;" />Ticket Class:</span></label>
-          <select name="selNationality">
+  <label for="cities" class="formLabel"><span><img id="ctl00_ctl00_TemplateBody_BodyContent_ucStep1_Image16" class="required" src="img/required.gif" alt="Required Field" style="border-width:0px;" />Ticket Class:</span></label>
+          <select name="cities">
                             <option value="NY">New York City</option>
                             <option value="BOS">Boston</option>
                             <option value="SAN">San Francisco</option>
@@ -108,8 +119,8 @@
   </div>
   
   <div class="fieldsWithExample">
-  <label for="ctl00_ctl00_TemplateBody_BodyContent_ucStep1_ddlStartState" class="formLabel"><span><img id="ctl00_ctl00_TemplateBody_BodyContent_ucStep1_Image18" class="required" src="img/required.gif" alt="Required Field" style="border-width:0px;" />Number of Days:</span></label>
-  <select name="ctl00$ctl00$TemplateBody$BodyContent$ucStep1$ddlStartState" id="ctl00_ctl00_TemplateBody_BodyContent_ucStep1_ddlStartState">
+  <label for="numberofdays" class="formLabel"><span><img id="ctl00_ctl00_TemplateBody_BodyContent_ucStep1_Image18" class="required" src="img/required.gif" alt="Required Field" style="border-width:0px;" />Number of Days:</span></label>
+  <select name="numberofdays" id="numberofdays">
                 <option value="3">3</option>
                 <option value="4">4</option>
                 <option value="5">5</option>
@@ -126,8 +137,11 @@
         </select>
   </div>
   <div class="fieldsWithExample">
-        <label for="ctl00_ctl00_TemplateBody_BodyContent_ucStep1_txtStartZip" class="formLabel"><span><img id="ctl00_ctl00_TemplateBody_BodyContent_ucStep1_Image17" class="required" src="img/required.gif" alt="Required Field" style="border-width:0px;" />Flight Date:</span></label>
+        <label for="flightDate" class="formLabel"><span><img id="ctl00_ctl00_TemplateBody_BodyContent_ucStep1_Image17" class="required" src="img/required.gif" alt="Required Field" style="border-width:0px;" />Flight Date:</span></label>
+		<!--
         <input name="ctl00$ctl00$TemplateBody$BodyContent$ucStep1$txtStartZip" type="date" id="ctl00_ctl00_TemplateBody_BodyContent_ucStep1_txtStartZip" size="10" />
+		-->
+        <input name="flightDate" type="date" id="flightDate"/>		
    </div>
   
  
