@@ -8,16 +8,23 @@ html, body, div, span, h1, h2, p, a,  ul, li, fieldset, label, legend {
 ul {
     list-style: none outside none;
 }
-
+.leto{
+   font-family: 'Lato', serif;
+   font-size: 36px;
+	text-shadow: 4px 4px 4px #aaa;   
+}
 body{
-    font-family: "Avenir LT W01 55 Roman",Arial,Verdana,Sans-Serif;
+    font-family: "Lato",Arial,Verdana,Sans-Serif;
 }
-strong, b, #siteTopNav li, .styledButton, #mainContentCopy fieldset legend, #mainContentCopy fieldset label.formLabel, {
-    font-family: "Avenir LT W01 85 Heavy",Arial,Verdana,Sans-Serif;
-    font-weight: normal;
-}
+strong, b, #siteTopNav li, .styledButton, #mainContentCopy fieldset legend, #mainContentCopy fieldset label.formLabel {
+/*
+	font-family : "Avenir LT W01 85 Heavy", Arial, Verdana, Sans-Serif;
+	*/
+	font-family: 'Lato', serif;
+	font-weight : normal;
+} 
 h1, h2 {
-    font-family: "Avenir LT W01 95 Black",Arial,Verdana,Sans-Serif;
+    font-family: "Lato",Arial,Verdana,Sans-Serif;
     font-weight: normal;
 }
 input, select{
