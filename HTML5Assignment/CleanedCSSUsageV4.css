@@ -403,9 +403,14 @@ body {
     background: url("img/bg_siteContentContainer.gif") repeat-x scroll 0 0 #FFFFFF;
 }
 #mainContent {
-    background-color: #000000;
+    background-color: #FFFFFF;
     padding-top: 125px;
 }
+
+.points{
+	text-align: right;
+}
+
 
 #headingContainer {
     height: 125px;
