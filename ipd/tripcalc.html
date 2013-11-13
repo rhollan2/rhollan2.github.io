@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>IPD 356 HTML 5 Assignment</title>
 		<link href="//fonts.googleapis.com/css?family=Lato:100italic,100,300italic,300,400italic,400,700italic,700,900italic,900" rel="stylesheet" type="text/css">
-		<link rel="stylesheet" href="CleanedCSSUsageV4.css" type="text/css" />
+		<link rel="stylesheet" href="stylesheets/main.css" type="text/css" />
 	</head>
     <body>
         <div id="siteHeaderContainer">
@@ -100,7 +100,7 @@
 							</select>
 						</div>
 						<div class="fieldsWithExample">
-							<label for="flightDate" class="formLabel"><span><img class="required" src="img/required.gif" alt="Required Field" style="border-width:0px;" />Flight Date:</span></label>
+							<label for="flightDate" class="formLabel"><span>Flight Date:</span></label>
 							<input name="flightDate" type="date" id="flightDate"/>		
 						</div>
 					
@@ -131,15 +131,20 @@
 				<span id="ctl00_ctl00_siteFtr"></span>
 				<div id="siteFooter">
 					<div id="footerQuickLinks">
-						<p>Rob Holland<br/>
-						DePaul IPD</p>
+						<p><a href="index.html">Home Page</a></p>
+						<p>Calculate Trip</p>
+						<p><a href="Information.html">Information</a></p>
+						<p><a href="http://www.cdm.depaul.edu/ipd/Pages/default2.aspx">DePaul IPD</a></p>						
 					</div>
 				</div> <!-- end of siteFooter -->
 			</div> <!-- end of siteFooterContainer -->
 		<script>	
 			function estimateCost()
 			{
-				alert("hello world!");
+			    var arr = document.getElementsByName('numberofdays'); //will be an array
+				numberOfDays = arr[0].options[arr[0].selectedIndex].value;
+				tripCost = 150 * numberOfDays;				
+				alert("Trip Cost is $" + tripCost);
 			}
 		</script>
     </body>

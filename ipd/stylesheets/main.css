@@ -104,7 +104,7 @@ a:hover {
     margin: 0;
 }
 #siteLogo a {
-    background: url("img/DePaulLogo.jpg") no-repeat scroll center center rgba(0, 0, 0, 0);
+    background: url("../img/DePaulLogo.jpg") no-repeat scroll center center rgba(0, 0, 0, 0);
     display: block;
     height: 85px;
     position: relative;
@@ -144,7 +144,7 @@ a:hover {
 }
 
 .styledButton{
-    background: url("img/bg_siteButton.gif") no-repeat scroll -25px 0 #808081;
+    background: url("../img/bg_siteButton.gif") no-repeat scroll -25px 0 #808081;
     border: 1px solid #666666;
     border-radius: 5px;
     color: #FFFFFF;
@@ -162,7 +162,7 @@ a:hover {
     background-position: -25px -100px;
 }
 .continueButton{
-    background: url("img/bg_siteButton.gif") no-repeat scroll -425px 0 #80B300;
+    background: url("../img/bg_siteButton.gif") no-repeat scroll -425px 0 #80B300;
     border: 1px solid #336600;
     text-shadow: -1px 0 #336600, 0 1px #336600, 1px 0 #336600, 0 -1px #336600;
 }
@@ -181,7 +181,7 @@ a.greenButton:hover {
     width: 27px;
 }
 .cancelButton {
-    background: url("img/bg_siteButton.gif") no-repeat scroll -800px 0 #9B0000;
+    background: url("../img/bg_siteButton.gif") no-repeat scroll -800px 0 #9B0000;
     border: 1px solid #660000;
     text-shadow: -1px 0 #660000, 0 1px #660000, 1px 0 #660000, 0 -1px #660000;
 }
@@ -189,7 +189,7 @@ a.greenButton:hover {
     background-position: -800px -100px;
 }
 .backButton {
-    background: url("img/bg_siteButton.gif") no-repeat scroll 0 0 #808081;
+    background: url("../img/bg_siteButton.gif") no-repeat scroll 0 0 #808081;
 }
 .backButton:hover {
     background-position: 0 -100px;
@@ -254,7 +254,7 @@ p.requiredFieldsLegend span img {
     margin: 0 0 10px;
 }
 #siteContent .DESVALSummary {
-    background: url("img/cancel_32.gif") no-repeat scroll 10px 10px #FFE5E5;
+    background: url("../img/cancel_32.gif") no-repeat scroll 10px 10px #FFE5E5;
     border: 1px solid #FF0000;
     border-radius: 10px;
     clear: right;
@@ -399,12 +399,12 @@ body {
     height: 107px;
 }
 #siteLogo a {
-    background: url("img/DePaulLogo.jpg") no-repeat scroll 51px 14px rgba(0, 0, 0, 0);
+    background: url("../img/DePaulLogo.jpg") no-repeat scroll 51px 14px rgba(0, 0, 0, 0);
     height: 107px;
     width: 240px;
 }
 #siteContentContainer {
-    background: url("img/bg_siteContentContainer.gif") repeat-x scroll 0 0 #FFFFFF;
+    background: url("../img/bg_siteContentContainer.gif") repeat-x scroll 0 0 #FFFFFF;
 }
 #mainContent {
     background-color: #FFFFFF;
@@ -425,7 +425,7 @@ body {
 }
 
 #breadcrumbsAndHeading {
-    background: url("img/bg_breadcrumbsAndHeading.png") repeat-y scroll left top rgba(0, 0, 0, 0);
+    background: url("../img/bg_breadcrumbsAndHeading.png") repeat-y scroll left top rgba(0, 0, 0, 0);
     bottom: 0;
     left: 0;
     position: absolute;
@@ -562,7 +562,7 @@ fieldset .fieldsWithExample input {
 }
 @media screen and (min-width: 980px) {
 #siteTopNav a span {
-    background: url("img/bg_siteTopNavButton.gif") no-repeat scroll right top rgba(0, 0, 0, 0);
+    background: url("../img/bg_siteTopNavButton.gif") no-repeat scroll right top rgba(0, 0, 0, 0);
     padding: 15px 40px 0 20px;
 }
 }
